@@ -1,0 +1,84 @@
+*{
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+body{
+  margin: 0;
+  padding: 0;
+  background-color: rgb(243, 243, 243);
+}
+.container{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 80px;
+}
+.login-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.image-celular{
+  width: 700px;
+  height: 700px;
+}
+.card-login{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  width: 600px;
+  height: 250px;
+  border: 1px solid lightgray;
+}
+.card-apps{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  align-items: center;
+  flex-direction: column;
+}
+.card-notMe{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5px;
+  width: 600px;
+  height: 100px;
+  background-color: #ffffff;
+  border: 1px solid lightgray;
+}
+.logo-insta{
+  margin-bottom: 15px;
+  height: 45px;
+  width: 160px;
+}
+.perfil-image{
+  padding-bottom: 8px;
+  height: 80px;
+  width: 80px;
+  border-radius: 100px;
+}
+.button-styles{
+  background-color: #0095f6;
+  color: #ffffff;
+  padding: 8px;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+.logo-app{
+  height: 50px;
+  width: 170px;
+}
+.apps{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 450px;
+  margin-top: 15px;
+}
